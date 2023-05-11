@@ -31,7 +31,7 @@ const fetchMovie = async (url) => {
     const movieCard = document.createElement("div");
     movieCard.href = `./movie.html?id=${movie.id}?media_type=${movie.media_type}`;
     movieCard.innerHTML = `
-        <div class="rounded-[12px] shadow-md">
+        <div class="rounded-[11px] shadow-md">
             <img src="${image_url}${movie.poster_path}" alt="${movie.title}" />
             <a href="./movie.html?id=${movie.id}?media_type=${
       movie.media_type
